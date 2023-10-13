@@ -1,0 +1,138 @@
+.users-list-items {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100vw;
+  flex-grow: 1;
+  padding: 20px;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  background-color: white;
+  border-radius: 10px;
+}
+.username {
+  min-width: 9vw;
+  font-family: "Roboto";
+  color: rgb(65, 63, 63);
+  font-size: 17px;
+  font-weight: 500;
+}
+.contact-container {
+  min-width: 11vw;
+}
+.contact {
+  font-family: "Roboto";
+  color: rgb(12, 12, 12);
+  font-size: 18px;
+  font-weight: 600;
+}
+.name {
+  font-family: "Roboto";
+  color: rgb(65, 63, 63);
+  font-size: 17px;
+  font-weight: 500;
+}
+.street-container {
+  min-width: 11vw;
+}
+.street {
+  font-family: "Roboto";
+  color: rgb(12, 12, 12);
+  font-size: 18px;
+  font-weight: 600;
+}
+.street-description {
+  font-family: "Roboto";
+  color: rgb(65, 63, 63);
+  font-size: 17px;
+  font-weight: 500;
+}
+.contact-city {
+  min-width: 10vw;
+}
+.city {
+  font-family: "Roboto";
+  color: rgb(12, 12, 12);
+  font-size: 18px;
+  font-weight: 600;
+}
+.city-description {
+  font-family: "Roboto";
+  color: rgb(65, 63, 63);
+  font-size: 17px;
+  font-weight: 500;
+}
+.link {
+  text-decoration: none;
+}
+.view-button {
+  border: 0px;
+  border-radius: 20px;
+  background-color: rgb(244, 71, 71);
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 600;
+}
+@media screen and (max-width: 910px) {
+  .username {
+    font-size: 14px;
+  }
+  .contact {
+    font-size: 15px;
+  }
+  .name {
+    font-size: 14px;
+  }
+
+  .street {
+    font-size: 15px;
+  }
+  .street-description {
+    font-size: 14px;
+  }
+
+  .city {
+    font-size: 15px;
+  }
+  .city-description {
+    font-size: 14px;
+  }
+
+  .view-button {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .username {
+    font-size: 10px;
+  }
+  .contact {
+    font-size: 11px;
+  }
+  .name {
+    font-size: 10px;
+  }
+
+  .street {
+    font-size: 11px;
+  }
+  .street-description {
+    font-size: 10px;
+  }
+
+  .city {
+    font-size: 11px;
+  }
+  .city-description {
+    font-size: 10px;
+  }
+
+  .view-button {
+    font-size: 8px;
+  }
+}

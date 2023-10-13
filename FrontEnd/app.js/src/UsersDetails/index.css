@@ -1,0 +1,16 @@
+.user-details-unorder-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: whitesmoke;
+}
